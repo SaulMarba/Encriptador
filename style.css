@@ -1,0 +1,171 @@
+body {
+    margin: 5%;
+    padding: 0px;
+    background: whitesmoke;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.container {
+    margin: auto;
+    width: 960px;
+    height: 800px;
+    padding: 5px;
+    background: #F3F3FC;
+    border-radius: 24px;
+    border: solid #0A3871;
+}
+
+.logo {
+    width: 100%;
+    background: #F3F3FC;
+
+}
+
+.left {
+    float: left;
+    width: 70%;
+    height: 65%;
+    border-radius: 24px;
+    background: #F3F3FC;
+}
+
+.right {
+    float: right;
+    width: 30%;
+    height: auto;
+    border-radius: 24px;
+    background: white;
+    text-align: center;
+
+}
+
+.left-button {
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+    background: #F3F3FC;
+}
+
+p {
+    font-size: small;
+    margin-left: 5%;
+}
+
+.logoimg {
+    margin-top: 1%;
+    margin-left: 5%;
+    float: inherit;
+
+}
+
+.tittle {
+    float: inherit;
+    margin-left: 20%;
+}
+
+.text-input {
+    float: left;
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    color: #0A3871;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: #F3F3FC;
+}
+
+#imgright {
+    margin-top: 20%;
+    width: 90%;
+    height: auto;
+    margin-left: 2%;
+}
+
+#texto {
+    margin-left: 7%;
+    margin-right: 5%;
+}
+
+#texto2 {
+    float: left;
+    margin-left: 10%;
+    color: #0A3871;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+#btn-encriptar {
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background: #0A3871;
+}
+#btn-encriptar:hover {
+    padding: 25px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    color: #0A3871;
+    background: #D8DFE8;
+    font-weight: bold;
+}
+
+#btn-desencriptar {
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background: #D8DFE8;
+}
+#btn-desencriptar:hover {
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background: #0A3871;
+    color: #D8DFE8;
+    font-weight: bold;
+    
+}
+
+#copiar {
+    margin-left: 33%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    background: #D8DFE8;
+    border-radius: 24px;
+    display: none;
+}
+#copiar:hover {
+    margin-left: 33%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    background: #0A3871;
+    border-radius: 24px;
+    display: none;
+    font-weight: bold;
+}
+.footer{
+    text-align: center;
+    text-decoration: none;
+}
+#imgf{
+    width: 20%;
+    height: 50%;
+}
